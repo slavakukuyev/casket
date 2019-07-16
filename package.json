@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "react-scripts": "0.8.1"
+    "react-scripts": "^3.0.1"
   },
   "dependencies": {
     "minimatch": "^3.0.3",
@@ -19,5 +19,17 @@
   "main": "index.js",
   "repository": "https://github.com/slby/casket.git",
   "author": "Slava Kukuyev <slava.kukuyev@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
